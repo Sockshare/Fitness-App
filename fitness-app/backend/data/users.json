@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "username": "testuser",
+        "password": "password123",
+        "goals": "Build Strength",
+        "available_equipment": [
+            "None",
+            "Dumbbells"
+        ],
+        "preferred_style": "Strength Training"
+    },
+    {
+        "id": 2,
+        "username": "user1",
+        "password_hash": "pbkdf2:sha256:600000$qfotKJXBC5dVd7xX$d9813d2c13366114b4c00edcf4247b0ef742c09a81bb782c87f024f97a12e5c2",
+        "goals": "Build Strength",
+        "available_equipment": [
+            "None"
+        ]
+    }
+]

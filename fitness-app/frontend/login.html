@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness App - Login</title>
+    <!-- We use the same stylesheet for a consistent look and feel -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <h1>User Login</h1>
+        </header>
+
+        <main class="card">
+            <!-- 
+                This form will capture the user's credentials.
+                We'll give it an ID to easily target it with JavaScript.
+            -->
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                
+                <button type="submit" class="button">Login</button>
+            </form>
+            
+            <!-- This div will be used to display any login errors (e.g., "Invalid password") -->
+            <div id="error-message" class="error-message"></div>
+
+            <div class="switch-form">
+                <p>Don't have an account? <a href="register.html">Register here</a></p>
+            </div>
+        </main>
+
+    </div>
+
+    <!-- We will need a new JavaScript file to handle the login/register logic -->
+    <script src="auth.js"></script>
+</body>
+</html>
