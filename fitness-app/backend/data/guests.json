@@ -1,0 +1,79 @@
+[
+    {
+        "id": "d101",
+        "type": "daily",
+        "title": "First Strike",
+        "description": "Complete your first workout of the day.",
+        "reward_xp": 25,
+        "criteria": {
+            "type": "first_workout_of_day",
+            "value": 1
+        }
+    },
+    {
+        "id": "d102",
+        "type": "daily",
+        "title": "Core Crusher",
+        "description": "Complete a workout that includes at least one 'Core' exercise.",
+        "reward_xp": 50,
+        "criteria": {
+            "type": "muscle_group_in_workout",
+            "value": "Core"
+        }
+    },
+    {
+        "id": "d103",
+        "type": "daily",
+        "title": "Strength Builder",
+        "description": "Complete a workout that includes at least one 'Chest' or 'Back' exercise.",
+        "reward_xp": 50,
+        "criteria": {
+            "type": "muscle_group_in_workout",
+            "value": ["Chest", "Back"]
+        }
+    },
+    {
+        "id": "d104",
+        "type": "daily",
+        "title": "Cardio Blast",
+        "description": "Complete a workout that includes a 'Cardio' exercise.",
+        "reward_xp": 40,
+        "criteria": {
+            "type": "muscle_group_in_workout",
+            "value": "Cardio"
+        }
+    },
+    {
+        "id": "w201",
+        "type": "weekly",
+        "title": "Consistent Performer",
+        "description": "Complete at least 3 workouts this week.",
+        "reward_xp": 200,
+        "criteria": {
+            "type": "workouts_in_week",
+            "value": 3
+        }
+    },
+    {
+        "id": "w202",
+        "type": "weekly",
+        "title": "Full Body Blitz",
+        "description": "Work out your Legs, Back, and Chest on separate days this week.",
+        "reward_xp": 350,
+        "criteria": {
+            "type": "unique_muscle_groups_in_week",
+            "value": ["Legs", "Back", "Chest"]
+        }
+    },
+    {
+        "id": "w203",
+        "type": "weekly",
+        "title": "Iron Dedication",
+        "description": "Complete at least 5 workouts this week.",
+        "reward_xp": 500,
+        "criteria": {
+            "type": "workouts_in_week",
+            "value": 5
+        }
+    }
+]

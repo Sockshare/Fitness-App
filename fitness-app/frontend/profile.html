@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - Fitness App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- 
+        Client-side security check. If no user is logged in,
+        redirect to the login page before anything loads.
+    -->
+    <script>
+        if (!localStorage.getItem('currentUser')) {
+            window.location.href = 'login.html';
+        }
+    </script>
+
+    <div class="container">
+        
+        <!-- The header includes a prominent link back to the main dashboard -->
+        <header class="page-header">
+            <h1>My Profile</h1>
+            <a href="dashboard.html" class="button button-secondary">Back to Dashboard</a>
+        </header>
+
+        <main>
+            <!-- 
+                Section 1: Core User Stats.
+                Designed to look like a player's stat card in a game.
+            -->
+            <section class="card profile-stats">
+                <div class="stat-item">
+                    <span class="stat-label">Username</span>
+                    <h2 id="username-display">Loading...</h2>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Level</span>
+                    <p id="level-display">--</p>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Current Streak</span>
+                    <p id="streak-display">🔥 0 Days</p>
+                </div>
+                <!-- XP Bar Container -->
+                <div class="xp-bar-container">
+                    <div id="xp-bar-fill" class="xp-bar-fill"></div>
+                    <span id="xp-text" class="xp-text">0 / 100 XP</span>
+                </div>
+            </section>
+
+            <!-- 
+                Section 2: Unlocked Badges/Achievements.
+                This grid will be populated by JavaScript.
+            -->
+            <section class="card">
+                <h2>Unlocked Badges</h2>
+                <div id="badges-grid" class="badges-grid">
+                    <!-- Badge elements will be injected here by profile.js -->
+                    <p>No badges unlocked yet. Keep working out!</p>
+                </div>
+            </section>
+
+            <!-- 
+                Section 3: Workout History.
+                A log of the user's most recent activity.
+            -->
+            <section class="card">
+                <h2>Recent Activity</h2>
+                <ul id="workout-history-list" class="workout-history-list">
+                    <!-- Workout history items will be injected here -->
+                    <li>Your completed workouts will appear here.</li>
+                </ul>
+            </section>
+
+             <!-- 
+                Section 4: Placeholder for a future Skill Tree feature.
+            -->
+            <section class="card">
+                <h2>Skill Tree (Coming Soon!)</h2>
+                <div id="skill-tree-container">
+                    <p>As you focus on different workout types like Strength, Cardio, and Core, your skills in those areas will grow and be visualized here!</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Link to the new JavaScript file that will power this page -->
+    <script src="profile.js"></script>
+</body>
+</html>

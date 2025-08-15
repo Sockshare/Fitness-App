@@ -1,0 +1,152 @@
+/* ---
+   Theme: "Cyberpunk Neon"
+   - Dark, immersive backgrounds.
+   - Glowing text and UI elements.
+   - Sharp, futuristic aesthetic.
+--- */
+
+/* --- Global Styles & Variables --- */
+:root {
+    --primary-glow: #00f0ff;      /* A bright, glowing cyan for primary actions */
+    --primary-glow-dim: #00a0aa;  /* A dimmer cyan for hover states */
+    --accent-glow: #ff00ff;       /* A magenta accent for contrast */
+    --background-dark: #0a0a14;   /* A very dark, deep blue for the background */
+    --card-background: #1a1a2e;   /* A slightly lighter blue-purple for cards */
+    --border-color: #3a3a5e;      /* A muted purple for borders and lines */
+    --text-primary: #e0e0e0;      /* A light grey for body text */
+    --text-secondary: #a0a0c0;    /* A muted purple-grey for secondary text */
+    --xp-bar-color: var(--primary-glow);
+    --level-badge-color: var(--accent-glow);
+    --success-color: #00ff7f;      /* A vibrant green for success messages */
+    --danger-color: #ff4d4d;       /* A glowing red for errors */
+    --quest-color: var(--success-color);
+    --badge-color: #ffd700;        /* A gold color for badges */
+}
+
+/* --- Body and Typography --- */
+body {
+    font-family: 'Orbitron', 'Segoe UI', sans-serif;
+    background-color: var(--background-dark);
+    color: var(--text-primary);
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
+    overflow-x: hidden; /* Prevent horizontal scroll from notifications */
+}
+h1, h2, h3 {
+    color: var(--primary-glow);
+    text-shadow: 0 0 5px var(--primary-glow-dim);
+    margin-top: 0;
+    letter-spacing: 1px;
+}
+h1 { font-size: 2.8rem; }
+h2 { font-size: 1.8rem; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; margin-bottom: 20px; }
+p { color: var(--text-secondary); }
+a { color: var(--primary-glow); text-decoration: none; transition: color 0.3s ease;}
+a:hover { color: var(--accent-glow); }
+
+/* --- HUD Layout & Containers --- */
+.hud-container, .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+.hud-header, .page-header { display: flex; justify-content: space-between; align-items: center; padding-bottom: 20px; border-bottom: 1px solid var(--border-color); margin-bottom: 20px; }
+.hud-main-content { display: flex; flex-wrap: wrap; gap: 20px; }
+.left-panel { flex: 1; min-width: 280px; }
+.main-panel { flex: 2; min-width: 300px; }
+
+/* --- Card Component --- */
+.card { background: var(--card-background); border: 1px solid var(--border-color); border-radius: 8px; padding: 25px; margin-bottom: 20px; box-shadow: 0 0 15px rgba(0, 240, 255, 0.1); }
+
+/* --- Buttons --- */
+.button { background: transparent; border: 2px solid var(--primary-glow); color: var(--primary-glow); padding: 12px 20px; border-radius: 5px; cursor: pointer; font-size: 1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; transition: all 0.3s ease; box-shadow: 0 0 5px var(--primary-glow-dim); text-shadow: 0 0 3px var(--primary-glow-dim); width: 100%; box-sizing: border-box; }
+.button:hover { background: var(--primary-glow); color: var(--background-dark); box-shadow: 0 0 20px var(--primary-glow); }
+.button-secondary { border-color: var(--accent-glow); color: var(--accent-glow); box-shadow: 0 0 5px var(--accent-glow); text-shadow: 0 0 3px var(--accent-glow); width: auto; }
+.button-secondary:hover { background: var(--accent-glow); box-shadow: 0 0 20px var(--accent-glow); }
+
+/* --- Gamification Elements --- */
+.level-badge { background: var(--level-badge-color); color: var(--background-dark); padding: 5px 10px; border-radius: 5px; font-weight: bold; float: right; box-shadow: 0 0 10px var(--level-badge-color); }
+.xp-bar-container { width: 100%; height: 30px; background-color: var(--background-dark); border: 1px solid var(--border-color); border-radius: 5px; position: relative; margin-top: 15px; }
+.xp-bar-fill { height: 100%; width: 0%; background-color: var(--xp-bar-color); border-radius: 4px; transition: width 0.5s ease-in-out; box-shadow: 0 0 10px var(--xp-bar-color); }
+.xp-text { position: absolute; width: 100%; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-weight: bold; color: var(--text-primary); text-shadow: 1px 1px 2px #000; }
+
+/* --- Mascot Card --- */
+.mascot-container img { max-width: 150px; display: block; margin: 0 auto 15px; }
+#mascot-message { text-align: center; font-style: italic; }
+
+/* --- Profile Page --- */
+.profile-stats .stat-item { margin-bottom: 20px; }
+.profile-stats .stat-label { text-transform: uppercase; color: var(--text-secondary); font-size: 0.9rem; }
+.badges-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 20px; }
+.badge-item { text-align: center; cursor: pointer; }
+.badge-item img { width: 80px; height: 80px; transition: transform 0.3s ease; }
+.badge-item:hover img { transform: scale(1.1); }
+.badge-name { margin-top: 5px; font-size: 0.9rem; color: var(--text-primary); }
+.workout-history-list { list-style: none; padding: 0; }
+.workout-history-list li { padding: 10px; border-bottom: 1px solid var(--border-color); }
+.workout-history-list li:last-child { border-bottom: none; }
+.workout-history-list li span { color: var(--success-color); float: right; font-weight: bold; }
+
+/* --- Quests Page --- */
+.quest-item { display: flex; align-items: center; padding: 15px; border: 1px solid var(--border-color); border-radius: 5px; margin-bottom: 15px; transition: all 0.3s ease; }
+.quest-item.completed { border-left: 5px solid var(--success-color); opacity: 0.7; }
+.quest-info { flex-grow: 1; }
+.quest-title { margin-bottom: 5px; color: var(--text-primary); }
+.quest-reward { font-weight: bold; color: var(--success-color); margin: 0 20px; }
+.quest-status span { font-size: 2rem; color: var(--success-color); }
+
+/* --- Forms & Auth Pages --- */
+.form-group { margin-bottom: 20px; }
+.form-group label { display: block; margin-bottom: 5px; font-weight: 600; }
+.form-group input, .form-group select { width: 100%; padding: 15px; font-size: 1rem; background: var(--background-dark); border: 1px solid var(--border-color); color: var(--text-primary); border-radius: 5px; box-sizing: border-box; }
+.form-message.success { color: var(--success-color); text-align: center; }
+.form-message.error, .error-message { color: var(--danger-color); text-align: center; font-weight: 600; margin-top: 15px; }
+.switch-form { margin-top: 25px; text-align: center; }
+
+/* --- Friends Page --- */
+.inline-form { display: flex; gap: 10px; }
+.inline-form input { flex-grow: 1; }
+.inline-form button { width: auto; }
+.friend-item { display: flex; justify-content: space-between; align-items: center; padding: 10px; border-bottom: 1px solid var(--border-color); }
+.button-accept { background: var(--success-color); color: var(--background-dark); border: none; padding: 5px 10px; margin-right: 5px; cursor: pointer; border-radius: 3px; }
+.button-decline { background: var(--danger-color); color: var(--background-dark); border: none; padding: 5px 10px; cursor: pointer; border-radius: 3px; }
+.leaderboard-list { list-style: none; padding: 0; }
+.leaderboard-item { display: flex; align-items: center; padding: 10px; border-radius: 5px; margin-bottom: 5px; }
+.leaderboard-item.current-user { background: rgba(0, 240, 255, 0.1); }
+.leaderboard-item .rank { font-size: 1.2rem; font-weight: bold; width: 40px; color: var(--accent-glow); }
+.leaderboard-item .name { flex-grow: 1; }
+.leaderboard-item .xp { font-weight: bold; color: var(--primary-glow); }
+
+/* --- Workout Display --- */
+.exercise-video { width: 100%; max-width: 300px; border-radius: 5px; margin-bottom: 10px; border: 1px solid var(--border-color); }
+.workout-complete-message { text-align: center; padding: 40px 20px; }
+.workout-complete-message h2 { color: var(--success-color); }
+.level-up-message { color: var(--level-badge-color); font-size: 1.5rem; font-weight: bold; }
+
+/* --- NEW: REWARD NOTIFICATIONS --- */
+.notification {
+    position: fixed;
+    bottom: 20px;
+    right: -400px; /* Start off-screen */
+    width: 350px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: var(--card-background);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: right 0.5s ease-in-out;
+    z-index: 1000;
+}
+.notification.show {
+    right: 20px; /* Slide in */
+}
+.notification.quest {
+    border-left: 5px solid var(--quest-color);
+    color: var(--quest-color);
+    text-shadow: 0 0 5px var(--quest-color);
+}
+.notification.badge {
+    border-left: 5px solid var(--badge-color);
+    color: var(--badge-color);
+    text-shadow: 0 0 5px var(--badge-color);
+}

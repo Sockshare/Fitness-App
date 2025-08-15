@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Access - Fitness App</title>
+    <!-- Links to the new, overhauled stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <h1>Authenticate</h1>
+            <p>Access your Fitaverse profile.</p>
+        </header>
+
+        <main class="card">
+            <!-- 
+                The form's ID and input names are unchanged,
+                so it remains compatible with auth.js.
+            -->
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="username">User ID</label>
+                    <input type="text" id="username" name="username" required placeholder="Enter your callsign...">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter your passcode...">
+                </div>
+                
+                <button type="submit" class="button">Login</button>
+            </form>
+            
+            <!-- This div is used by auth.js to display login errors -->
+            <div id="error-message" class="error-message"></div>
+
+            <div class="switch-form">
+                <p>No account? <a href="register.html">Create one here</a>.</p>
+            </div>
+        </main>
+
+    </div>
+
+    <!-- The authentication logic is handled by auth.js -->
+    <script src="auth.js"></script>
+</body>
+</html>

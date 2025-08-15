@@ -1,0 +1,522 @@
+[
+    {
+        "userId": 2,
+        "date": "2025-08-15T19:49:59.160573",
+        "workout": [
+            {
+                "description": "A classic bodyweight exercise that builds strength in the chest, shoulders, and triceps.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 1,
+                "muscle_group": "Chest",
+                "name": "Push-up",
+                "video_url": "assets/videos/pushup.mp4"
+            },
+            {
+                "description": "An excellent cardiovascular exercise for improving endurance and heart health.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 9,
+                "muscle_group": "Cardio",
+                "name": "Running (Treadmill)",
+                "video_url": "assets/videos/running.mp4"
+            },
+            {
+                "description": "A fundamental lower body exercise that targets the quadriceps, hamstrings, and glutes.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 2,
+                "muscle_group": "Legs",
+                "name": "Squat",
+                "video_url": "assets/videos/squat.mp4"
+            },
+            {
+                "description": "An isometric core strength exercise that involves maintaining a position similar to a push-up for the maximum possible time.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 4,
+                "muscle_group": "Core",
+                "name": "Plank",
+                "video_url": "assets/videos/plank.mp4"
+            },
+            {
+                "description": "A single-leg bodyweight exercise that works the quadriceps, glutes, and hamstrings.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 7,
+                "muscle_group": "Legs",
+                "name": "Lunge",
+                "video_url": "assets/videos/lunge.mp4"
+            }
+        ],
+        "xp_gained": 75
+    },
+    {
+        "userId": 2,
+        "date": "2025-08-15T19:50:11.087447",
+        "workout": [
+            {
+                "description": "An excellent cardiovascular exercise for improving endurance and heart health.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 9,
+                "muscle_group": "Cardio",
+                "name": "Running (Treadmill)",
+                "video_url": "assets/videos/running.mp4"
+            },
+            {
+                "description": "A fundamental lower body exercise that targets the quadriceps, hamstrings, and glutes.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 2,
+                "muscle_group": "Legs",
+                "name": "Squat",
+                "video_url": "assets/videos/squat.mp4"
+            },
+            {
+                "description": "An isometric core strength exercise that involves maintaining a position similar to a push-up for the maximum possible time.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 4,
+                "muscle_group": "Core",
+                "name": "Plank",
+                "video_url": "assets/videos/plank.mp4"
+            },
+            {
+                "description": "A classic bodyweight exercise that builds strength in the chest, shoulders, and triceps.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 1,
+                "muscle_group": "Chest",
+                "name": "Push-up",
+                "video_url": "assets/videos/pushup.mp4"
+            },
+            {
+                "description": "A single-leg bodyweight exercise that works the quadriceps, glutes, and hamstrings.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 7,
+                "muscle_group": "Legs",
+                "name": "Lunge",
+                "video_url": "assets/videos/lunge.mp4"
+            }
+        ],
+        "xp_gained": 75
+    },
+    {
+        "userId": 2,
+        "date": "2025-08-15T20:14:29.738775",
+        "workout": [
+            {
+                "description": "An excellent cardiovascular exercise for improving endurance and heart health.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 9,
+                "muscle_group": "Cardio",
+                "name": "Running (Treadmill)",
+                "video_url": "assets/videos/running.mp4"
+            },
+            {
+                "description": "An isometric core strength exercise that involves maintaining a position similar to a push-up for the maximum possible time.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 4,
+                "muscle_group": "Core",
+                "name": "Plank",
+                "video_url": "assets/videos/plank.mp4"
+            },
+            {
+                "description": "A classic bodyweight exercise that builds strength in the chest, shoulders, and triceps.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 1,
+                "muscle_group": "Chest",
+                "name": "Push-up",
+                "video_url": "assets/videos/pushup.mp4"
+            },
+            {
+                "description": "A fundamental lower body exercise that targets the quadriceps, hamstrings, and glutes.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 2,
+                "muscle_group": "Legs",
+                "name": "Squat",
+                "video_url": "assets/videos/squat.mp4"
+            },
+            {
+                "description": "A single-leg bodyweight exercise that works the quadriceps, glutes, and hamstrings.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 7,
+                "muscle_group": "Legs",
+                "name": "Lunge",
+                "video_url": "assets/videos/lunge.mp4"
+            }
+        ],
+        "xp_gained": 75
+    },
+    {
+        "userId": 2,
+        "date": "2025-08-15T20:14:33.913688",
+        "workout": [
+            {
+                "description": "An isometric core strength exercise that involves maintaining a position similar to a push-up for the maximum possible time.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 4,
+                "muscle_group": "Core",
+                "name": "Plank",
+                "video_url": "assets/videos/plank.mp4"
+            },
+            {
+                "description": "A single-leg bodyweight exercise that works the quadriceps, glutes, and hamstrings.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 7,
+                "muscle_group": "Legs",
+                "name": "Lunge",
+                "video_url": "assets/videos/lunge.mp4"
+            },
+            {
+                "description": "A classic bodyweight exercise that builds strength in the chest, shoulders, and triceps.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 1,
+                "muscle_group": "Chest",
+                "name": "Push-up",
+                "video_url": "assets/videos/pushup.mp4"
+            },
+            {
+                "description": "A fundamental lower body exercise that targets the quadriceps, hamstrings, and glutes.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 2,
+                "muscle_group": "Legs",
+                "name": "Squat",
+                "video_url": "assets/videos/squat.mp4"
+            },
+            {
+                "description": "An excellent cardiovascular exercise for improving endurance and heart health.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 9,
+                "muscle_group": "Cardio",
+                "name": "Running (Treadmill)",
+                "video_url": "assets/videos/running.mp4"
+            }
+        ],
+        "xp_gained": 75
+    },
+    {
+        "userId": 2,
+        "date": "2025-08-15T20:14:36.919609",
+        "workout": [
+            {
+                "description": "A classic bodyweight exercise that builds strength in the chest, shoulders, and triceps.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 1,
+                "muscle_group": "Chest",
+                "name": "Push-up",
+                "video_url": "assets/videos/pushup.mp4"
+            },
+            {
+                "description": "An excellent cardiovascular exercise for improving endurance and heart health.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 9,
+                "muscle_group": "Cardio",
+                "name": "Running (Treadmill)",
+                "video_url": "assets/videos/running.mp4"
+            },
+            {
+                "description": "An isometric core strength exercise that involves maintaining a position similar to a push-up for the maximum possible time.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 4,
+                "muscle_group": "Core",
+                "name": "Plank",
+                "video_url": "assets/videos/plank.mp4"
+            },
+            {
+                "description": "A single-leg bodyweight exercise that works the quadriceps, glutes, and hamstrings.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 7,
+                "muscle_group": "Legs",
+                "name": "Lunge",
+                "video_url": "assets/videos/lunge.mp4"
+            },
+            {
+                "description": "A fundamental lower body exercise that targets the quadriceps, hamstrings, and glutes.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 2,
+                "muscle_group": "Legs",
+                "name": "Squat",
+                "video_url": "assets/videos/squat.mp4"
+            }
+        ],
+        "xp_gained": 75
+    },
+    {
+        "userId": 2,
+        "date": "2025-08-15T20:14:39.911159",
+        "workout": [
+            {
+                "description": "A single-leg bodyweight exercise that works the quadriceps, glutes, and hamstrings.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 7,
+                "muscle_group": "Legs",
+                "name": "Lunge",
+                "video_url": "assets/videos/lunge.mp4"
+            },
+            {
+                "description": "A classic bodyweight exercise that builds strength in the chest, shoulders, and triceps.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 1,
+                "muscle_group": "Chest",
+                "name": "Push-up",
+                "video_url": "assets/videos/pushup.mp4"
+            },
+            {
+                "description": "An isometric core strength exercise that involves maintaining a position similar to a push-up for the maximum possible time.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 4,
+                "muscle_group": "Core",
+                "name": "Plank",
+                "video_url": "assets/videos/plank.mp4"
+            },
+            {
+                "description": "An excellent cardiovascular exercise for improving endurance and heart health.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 9,
+                "muscle_group": "Cardio",
+                "name": "Running (Treadmill)",
+                "video_url": "assets/videos/running.mp4"
+            },
+            {
+                "description": "A fundamental lower body exercise that targets the quadriceps, hamstrings, and glutes.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 2,
+                "muscle_group": "Legs",
+                "name": "Squat",
+                "video_url": "assets/videos/squat.mp4"
+            }
+        ],
+        "xp_gained": 75
+    },
+    {
+        "userId": 2,
+        "date": "2025-08-15T20:14:42.711214",
+        "workout": [
+            {
+                "description": "A single-leg bodyweight exercise that works the quadriceps, glutes, and hamstrings.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 7,
+                "muscle_group": "Legs",
+                "name": "Lunge",
+                "video_url": "assets/videos/lunge.mp4"
+            },
+            {
+                "description": "An isometric core strength exercise that involves maintaining a position similar to a push-up for the maximum possible time.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 4,
+                "muscle_group": "Core",
+                "name": "Plank",
+                "video_url": "assets/videos/plank.mp4"
+            },
+            {
+                "description": "A fundamental lower body exercise that targets the quadriceps, hamstrings, and glutes.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 2,
+                "muscle_group": "Legs",
+                "name": "Squat",
+                "video_url": "assets/videos/squat.mp4"
+            },
+            {
+                "description": "An excellent cardiovascular exercise for improving endurance and heart health.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 9,
+                "muscle_group": "Cardio",
+                "name": "Running (Treadmill)",
+                "video_url": "assets/videos/running.mp4"
+            },
+            {
+                "description": "A classic bodyweight exercise that builds strength in the chest, shoulders, and triceps.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 1,
+                "muscle_group": "Chest",
+                "name": "Push-up",
+                "video_url": "assets/videos/pushup.mp4"
+            }
+        ],
+        "xp_gained": 75
+    },
+    {
+        "userId": 2,
+        "date": "2025-08-15T20:39:46.110237",
+        "workout": [
+            {
+                "description": "A fundamental lower body exercise that targets the quadriceps, hamstrings, and glutes.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 2,
+                "muscle_group": "Legs",
+                "name": "Squat",
+                "video_url": "assets/videos/squat.mp4"
+            },
+            {
+                "description": "An excellent cardiovascular exercise for improving endurance and heart health.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 9,
+                "muscle_group": "Cardio",
+                "name": "Running (Treadmill)",
+                "video_url": "assets/videos/running.mp4"
+            },
+            {
+                "description": "A classic bodyweight exercise that builds strength in the chest, shoulders, and triceps.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 1,
+                "muscle_group": "Chest",
+                "name": "Push-up",
+                "video_url": "assets/videos/pushup.mp4"
+            },
+            {
+                "description": "An isometric core strength exercise that involves maintaining a position similar to a push-up for the maximum possible time.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 4,
+                "muscle_group": "Core",
+                "name": "Plank",
+                "video_url": "assets/videos/plank.mp4"
+            },
+            {
+                "description": "A single-leg bodyweight exercise that works the quadriceps, glutes, and hamstrings.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 7,
+                "muscle_group": "Legs",
+                "name": "Lunge",
+                "video_url": "assets/videos/lunge.mp4"
+            }
+        ],
+        "xp_gained": 75
+    },
+    {
+        "userId": 2,
+        "date": "2025-08-15T20:57:23.629194",
+        "workout": [
+            {
+                "description": "An isometric core strength exercise that involves maintaining a position similar to a push-up for the maximum possible time.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 4,
+                "muscle_group": "Core",
+                "name": "Plank",
+                "video_url": "assets/videos/plank.mp4"
+            },
+            {
+                "description": "A classic bodyweight exercise that builds strength in the chest, shoulders, and triceps.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 1,
+                "muscle_group": "Chest",
+                "name": "Push-up",
+                "video_url": "assets/videos/pushup.mp4"
+            },
+            {
+                "description": "An excellent cardiovascular exercise for improving endurance and heart health.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 9,
+                "muscle_group": "Cardio",
+                "name": "Running (Treadmill)",
+                "video_url": "assets/videos/running.mp4"
+            },
+            {
+                "description": "A fundamental lower body exercise that targets the quadriceps, hamstrings, and glutes.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 2,
+                "muscle_group": "Legs",
+                "name": "Squat",
+                "video_url": "assets/videos/squat.mp4"
+            },
+            {
+                "description": "A single-leg bodyweight exercise that works the quadriceps, glutes, and hamstrings.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 7,
+                "muscle_group": "Legs",
+                "name": "Lunge",
+                "video_url": "assets/videos/lunge.mp4"
+            }
+        ],
+        "xp_gained": 75
+    },
+    {
+        "userId": 2,
+        "date": "2025-08-15T20:57:35.772163",
+        "workout": [
+            {
+                "description": "A classic bodyweight exercise that builds strength in the chest, shoulders, and triceps.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 1,
+                "muscle_group": "Chest",
+                "name": "Push-up",
+                "video_url": "assets/videos/pushup.mp4"
+            },
+            {
+                "description": "An excellent cardiovascular exercise for improving endurance and heart health.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 9,
+                "muscle_group": "Cardio",
+                "name": "Running (Treadmill)",
+                "video_url": "assets/videos/running.mp4"
+            },
+            {
+                "description": "A fundamental lower body exercise that targets the quadriceps, hamstrings, and glutes.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 2,
+                "muscle_group": "Legs",
+                "name": "Squat",
+                "video_url": "assets/videos/squat.mp4"
+            },
+            {
+                "description": "A single-leg bodyweight exercise that works the quadriceps, glutes, and hamstrings.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 7,
+                "muscle_group": "Legs",
+                "name": "Lunge",
+                "video_url": "assets/videos/lunge.mp4"
+            },
+            {
+                "description": "An isometric core strength exercise that involves maintaining a position similar to a push-up for the maximum possible time.",
+                "difficulty": "Beginner",
+                "equipment": "None",
+                "id": 4,
+                "muscle_group": "Core",
+                "name": "Plank",
+                "video_url": "assets/videos/plank.mp4"
+            }
+        ],
+        "xp_gained": 75
+    }
+]

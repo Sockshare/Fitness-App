@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "username": "NewUser",
+        "password_hash": "a_very_long_secure_hash_string",
+        "goals": "Build Strength",
+        "available_equipment": [
+            "None",
+            "Dumbbells"
+        ],
+        "level": 1,
+        "xp": 0,
+        "streak_count": 0,
+        "last_workout_date": null,
+        "unlocked_badges": [],
+        "completed_quests": []
+    },
+    {
+        "id": 2,
+        "username": "user1",
+        "password_hash": "pbkdf2:sha256:600000$ACw2erqp7F1GdTQt$35e0e5c4f5728197f505de35f7e78338a2f629d022b2520a68bc02591b211749",
+        "goals": "Build Strength",
+        "available_equipment": [
+            "None"
+        ],
+        "level": 5,
+        "xp": 50,
+        "streak_count": 1,
+        "last_workout_date": "2025-08-15",
+        "unlocked_badges": [
+            "b001",
+            "b002",
+            "b004"
+        ],
+        "completed_quests": []
+    }
+]

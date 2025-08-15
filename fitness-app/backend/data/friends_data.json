@@ -1,0 +1,19 @@
+[
+    {
+        "requester_id": 1,
+        "receiver_id": 2,
+        "status": "pending"
+    },
+    {
+        "requester_id": 3,
+        "receiver_id": 1,
+        "status": "accepted",
+        "since": "2025-08-16T10:00:00Z"
+    },
+    {
+        "requester_id": 3,
+        "receiver_id": 2,
+        "status": "accepted",
+        "since": "2025-08-17T14:30:00Z"
+    }
+]

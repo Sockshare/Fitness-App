@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "name": "Push-up",
+        "muscle_group": "Chest",
+        "difficulty": "Beginner",
+        "equipment": "None",
+        "description": "A classic bodyweight exercise that builds strength in the chest, shoulders, and triceps.",
+        "video_url": "assets/videos/pushup.mp4"
+    },
+    {
+        "id": 2,
+        "name": "Squat",
+        "muscle_group": "Legs",
+        "difficulty": "Beginner",
+        "equipment": "None",
+        "description": "A fundamental lower body exercise that targets the quadriceps, hamstrings, and glutes.",
+        "video_url": "assets/videos/squat.mp4"
+    },
+    {
+        "id": 3,
+        "name": "Pull-up",
+        "muscle_group": "Back",
+        "difficulty": "Intermediate",
+        "equipment": "Pull-up Bar",
+        "description": "An advanced upper body exercise for building a wide, strong back and biceps.",
+        "video_url": "assets/videos/pullup.mp4"
+    },
+    {
+        "id": 4,
+        "name": "Plank",
+        "muscle_group": "Core",
+        "difficulty": "Beginner",
+        "equipment": "None",
+        "description": "An isometric core strength exercise that involves maintaining a position similar to a push-up for the maximum possible time.",
+        "video_url": "assets/videos/plank.mp4"
+    },
+    {
+        "id": 5,
+        "name": "Dumbbell Bicep Curl",
+        "muscle_group": "Arms",
+        "difficulty": "Beginner",
+        "equipment": "Dumbbells",
+        "description": "An isolation exercise that targets the biceps muscles of the upper arm.",
+        "video_url": "assets/videos/bicep_curl.mp4"
+    },
+    {
+        "id": 6,
+        "name": "Dumbbell Shoulder Press",
+        "muscle_group": "Shoulders",
+        "difficulty": "Intermediate",
+        "equipment": "Dumbbells",
+        "description": "A compound exercise for building shoulder strength and size.",
+        "video_url": "assets/videos/shoulder_press.mp4"
+    },
+    {
+        "id": 7,
+        "name": "Lunge",
+        "muscle_group": "Legs",
+        "difficulty": "Beginner",
+        "equipment": "None",
+        "description": "A single-leg bodyweight exercise that works the quadriceps, glutes, and hamstrings.",
+        "video_url": "assets/videos/lunge.mp4"
+    },
+    {
+        "id": 8,
+        "name": "Barbell Deadlift",
+        "muscle_group": "Back",
+        "difficulty": "Advanced",
+        "equipment": "Barbell",
+        "description": "A full-body compound exercise that develops the back, legs, and grip strength.",
+        "video_url": "assets/videos/deadlift.mp4"
+    },
+    {
+        "id": 9,
+        "name": "Running (Treadmill)",
+        "muscle_group": "Cardio",
+        "difficulty": "Beginner",
+        "equipment": "None",
+        "description": "An excellent cardiovascular exercise for improving endurance and heart health.",
+        "video_url": "assets/videos/running.mp4"
+    }
+]

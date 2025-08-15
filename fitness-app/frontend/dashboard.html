@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Fitness App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Security script to redirect if not logged in -->
+    <script>
+        if (!localStorage.getItem('currentUser')) {
+            window.location.href = 'login.html';
+        }
+    </script>
+
+    <!-- Main container for the new HUD layout -->
+    <div class="hud-container">
+
+        <!-- Top navigation bar -->
+        <header class="hud-header">
+            <nav class="main-nav">
+                <a href="profile.html" class="nav-button">Profile</a>
+                <a href="quests.html" class="nav-button">Quests</a>
+                <a href="friends.html" class="nav-button">Friends</a>
+            </nav>
+            <button id="logout-btn" class="button button-secondary">Logout</button>
+        </header>
+
+        <!-- Main content area split into two panels -->
+        <main class="hud-main-content">
+
+            <!-- Left Panel: User Stats & Mascot -->
+            <aside class="left-panel">
+                <div class="card user-stats-card">
+                    <span class="level-badge">LVL <span id="level-display">1</span></span>
+                    <h2 id="username-display">Username</h2>
+                    <div class="xp-bar-container">
+                        <div id="xp-bar-fill" class="xp-bar-fill"></div>
+                        <span id="xp-text" class="xp-text">0 / 100 XP</span>
+                    </div>
+                </div>
+
+                <div class="card mascot-card">
+                    <h3>Fitaverse Pet</h3>
+                    <div id="mascot-container" class="mascot-container">
+                        <!-- The mascot's image and animations will be controlled by JavaScript -->
+                        <img src="assets/images/mascot-idle.png" alt="Your fitness pet">
+                        <p id="mascot-message">Ready for a workout!</p>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Right Panel: Workout Generation & Display -->
+            <section class="main-panel">
+                <div class="card workout-generation-card">
+                    <h2>Today's Mission</h2>
+                    <p>Generate a new workout plan tailored to your goals.</p>
+                    <button id="generate-workout-btn" class="button">Generate Workout</button>
+                </div>
+
+                <div class="card workout-display-card">
+                    <div id="workout-routine" class="workout-list">
+                        <!-- The generated workout will be injected here by app.js -->
+                        <p class="placeholder-text">Your generated workout will appear here.</p>
+                    </div>
+                    <!-- This button is crucial for the gamification loop. It starts hidden. -->
+                    <button id="complete-workout-btn" class="button" style="display: none;">Complete Workout</button>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Link to the main application logic script -->
+    <script src="app.js"></script>
+</body>
+</html>

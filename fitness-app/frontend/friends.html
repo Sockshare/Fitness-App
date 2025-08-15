@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends - Fitness App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- 
+        Client-side security check. If no user is logged in,
+        redirect to the login page before anything loads.
+    -->
+    <script>
+        if (!localStorage.getItem('currentUser')) {
+            window.location.href = 'login.html';
+        }
+    </script>
+
+    <div class="container">
+
+        <!-- The header includes a prominent link back to the main dashboard -->
+        <header class="page-header">
+            <h1>Friends & Leaderboard</h1>
+            <a href="dashboard.html" class="button button-secondary">Back to Dashboard</a>
+        </header>
+
+        <main>
+            <!-- 
+                Section 1: Add a New Friend.
+                A simple form to send a friend request by username.
+            -->
+            <section class="card">
+                <h2>Add a Friend</h2>
+                <form id="add-friend-form" class="inline-form">
+                    <input type="text" id="friend-username" placeholder="Enter friend's username" required>
+                    <button type="submit" class="button">Send Request</button>
+                </form>
+                <div id="friend-request-message" class="form-message"></div>
+            </section>
+            
+            <!-- 
+                Section 2: Pending Friend Requests.
+                This is where the user can accept or decline incoming requests.
+            -->
+            <section class="card">
+                <h2>Pending Requests</h2>
+                <div id="pending-requests-container" class="friends-list">
+                    <!-- Pending requests will be injected here by friends.js -->
+                    <p>No new friend requests.</p>
+                </div>
+            </section>
+
+            <!-- 
+                Section 3: Current Friends List.
+                Shows all accepted friends.
+            -->
+            <section class="card">
+                <h2>My Friends</h2>
+                <div id="friends-list-container" class="friends-list">
+                    <!-- Friend items will be injected here by friends.js -->
+                    <p>You haven't added any friends yet.</p>
+                </div>
+            </section>
+
+            <!-- 
+                Section 4: Weekly Leaderboard.
+                Shows the user and their friends ranked by weekly XP.
+            -->
+            <section class="card">
+                <h2>Weekly XP Leaderboard</h2>
+                <ol id="leaderboard-list" class="leaderboard-list">
+                    <!-- Leaderboard will be injected here by friends.js -->
+                    <p>Add some friends to start a friendly competition!</p>
+                </ol>
+            </section>
+        </main>
+    </div>
+
+    <!-- Link to the new JavaScript file that will power this page -->
+    <script src="friends.js"></script>
+</body>
+</html>

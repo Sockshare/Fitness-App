@@ -1,0 +1,112 @@
+[
+    {
+        "id": "b001",
+        "name": "First Step",
+        "description": "Awarded for completing your very first workout. The journey begins!",
+        "image_url": "assets/images/badges/first_step.png",
+        "criteria": {
+            "type": "total_workouts",
+            "value": 1
+        }
+    },
+    {
+        "id": "b002",
+        "name": "Workout Warrior",
+        "description": "Awarded for completing 10 workouts. You're building a habit!",
+        "image_url": "assets/images/badges/warrior.png",
+        "criteria": {
+            "type": "total_workouts",
+            "value": 10
+        }
+    },
+    {
+        "id": "b003",
+        "name": "Seasoned Veteran",
+        "description": "Awarded for completing 50 workouts. Truly impressive dedication.",
+        "image_url": "assets/images/badges/veteran.png",
+        "criteria": {
+            "type": "total_workouts",
+            "value": 50
+        }
+    },
+    {
+        "id": "b004",
+        "name": "Level Up!",
+        "description": "Awarded for reaching Level 5. Your power is growing.",
+        "image_url": "assets/images/badges/level_5.png",
+        "criteria": {
+            "type": "level_reached",
+            "value": 5
+        }
+    },
+    {
+        "id": "b005",
+        "name": "Power Overwhelming",
+        "description": "Awarded for reaching the formidable Level 10.",
+        "image_url": "assets/images/badges/level_10.png",
+        "criteria": {
+            "type": "level_reached",
+            "value": 10
+        }
+    },
+    {
+        "id": "b006",
+        "name": "On Fire!",
+        "description": "Awarded for maintaining a 7-day workout streak.",
+        "image_url": "assets/images/badges/streak_7.png",
+        "criteria": {
+            "type": "streak",
+            "value": 7
+        }
+    },
+    {
+        "id": "b007",
+        "name": "Unstoppable",
+        "description": "Awarded for an epic 30-day workout streak. You are a legend.",
+        "image_url": "assets/images/badges/streak_30.png",
+        "criteria": {
+            "type": "streak",
+            "value": 30
+        }
+    },
+    {
+        "id": "b008",
+        "name": "Bodyweight Master",
+        "description": "Awarded for completing 10 workouts using only your bodyweight.",
+        "image_url": "assets/images/badges/bodyweight.png",
+        "criteria": {
+            "type": "equipment_usage_count",
+            "value": { "equipment": "None", "count": 10 }
+        }
+    },
+    {
+        "id": "b009",
+        "name": "Quest Conqueror",
+        "description": "Awarded for completing 10 daily or weekly quests.",
+        "image_url": "assets/images/badges/quest.png",
+        "criteria": {
+            "type": "quests_completed",
+            "value": 10
+        }
+    },
+    {
+        "id": "b010",
+        "name": "Early Bird",
+        "description": "Awarded for completing 5 workouts before 8 AM.",
+        "image_url": "assets/images/badges/early_bird.png",
+        "criteria": {
+            "type": "time_of_day_workout",
+            "value": { "period": "morning", "count": 5 }
+        }
+    },
+    {
+        "id": "b011",
+        "name": "Night Owl",
+        "description": "Awarded for completing 5 workouts after 9 PM.",
+        "image_url": "assets/images/badges/night_owl.png",
+        "criteria": {
+            "type": "time_of_day_workout",
+            "value": { "period": "night", "count": 5 }
+        }
+    }
+]

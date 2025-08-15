@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quests - Fitness App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- 
+        Client-side security check. If no user is logged in,
+        redirect to the login page before anything loads.
+    -->
+    <script>
+        if (!localStorage.getItem('currentUser')) {
+            window.location.href = 'login.html';
+        }
+    </script>
+
+    <div class="container">
+
+        <!-- The header includes a prominent link back to the main dashboard -->
+        <header class="page-header">
+            <h1>Quest Board</h1>
+            <a href="dashboard.html" class="button button-secondary">Back to Dashboard</a>
+        </header>
+
+        <main>
+            <!-- 
+                Section 1: Daily Quests.
+                This container will be filled by JavaScript.
+            -->
+            <section class="card">
+                <h2>Daily Quests</h2>
+                <p>New challenges available every day! Complete them for bonus XP.</p>
+                <div id="daily-quests-container" class="quests-container">
+                    <!-- Daily quest items will be injected here by quests.js -->
+                    <p>Loading daily quests...</p>
+                </div>
+            </section>
+
+            <!-- 
+                Section 2: Weekly Challenges.
+                This container will also be filled by JavaScript.
+            -->
+            <section class="card">
+                <h2>Weekly Challenges</h2>
+                <p>Complete these larger goals by the end of the week for massive rewards.</p>
+                <div id="weekly-quests-container" class="quests-container">
+                    <!-- Weekly quest items will be injected here by quests.js -->
+                    <p>Loading weekly challenges...</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Link to the new JavaScript file that will power this page -->
+    <script src="quests.js"></script>
+</body>
+</html>

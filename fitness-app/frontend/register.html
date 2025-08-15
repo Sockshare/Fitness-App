@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Creation - Fitness App</title>
+    <!-- Links to the new, overhauled stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <h1>Create Profile</h1>
+            <p>Join the Fitaverse and start your journey.</p>
+        </header>
+
+        <main class="card">
+            <!-- 
+                The form's ID and input names are unchanged,
+                so it remains compatible with auth.js.
+            -->
+            <form id="register-form">
+                <div class="form-group">
+                    <label for="username">Choose Your Callsign (Username)</label>
+                    <input type="text" id="username" name="username" required placeholder="e.g., NeonRunner">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Set Your Passcode (Password)</label>
+                    <input type="password" id="password" name="password" required placeholder="Must be secure...">
+                </div>
+
+                <div class="form-group">
+                    <label for="goals">Select Primary Directive (Fitness Goal)</label>
+                    <select id="goals" name="goals">
+                        <option value="Build Strength">Build Strength</option>
+                        <option value="Lose Weight">Lose Weight</option>
+                        <option value="Improve Endurance">Improve Endurance</option>
+                        <option value="General Fitness">General Fitness</option>
+                    </select>
+                </div>
+
+                <fieldset class="form-group">
+                    <legend>Authorize Equipment Access</legend>
+                    <div class="checkbox-group">
+                        <div>
+                            <input type="checkbox" id="equip-none" name="equipment" value="None" checked>
+                            <label for="equip-none">None (Bodyweight)</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="equip-dumbbells" name="equipment" value="Dumbbells">
+                            <label for="equip-dumbbells">Dumbbells</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="equip-barbell" name="equipment" value="Barbell">
+                            <label for="equip-barbell">Barbell</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="equip-pullup" name="equipment" value="Pull-up Bar">
+                            <label for="equip-pullup">Pull-up Bar</label>
+                        </div>
+                    </div>
+                </fieldset>
+                
+                <button type="submit" class="button">Create Account</button>
+            </form>
+            
+            <!-- This div is used by auth.js to display registration errors -->
+            <div id="error-message" class="error-message"></div>
+
+            <div class="switch-form">
+                <p>Already have a profile? <a href="login.html">Login here</a>.</p>
+            </div>
+        </main>
+
+    </div>
+
+    <!-- The authentication logic is handled by auth.js -->
+    <script src="auth.js"></script>
+</body>
+</html>
